@@ -1,4 +1,6 @@
 import React from "react";
+import { username, city, image } from "../data/user"
+console.log(username, city);
 
 function About() {
   return (
@@ -9,3 +11,4 @@ function About() {
     </div>
   );
 }
+export default About
